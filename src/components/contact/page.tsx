@@ -9,7 +9,7 @@ export default function Contact() {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
 
-    const handlePhoneChange = (e: ChangeEvent<HTMLInputElement>) => { // Tipo explícito para o evento 'e'
+    const handlePhoneChange = (e: ChangeEvent<HTMLInputElement>) => { 
         setPhone(e.target.value);
     };
 
