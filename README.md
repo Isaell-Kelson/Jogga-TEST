@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page 
 
-## Getting Started
+Este é um projeto de landing-page simples que inclui um formulário para coletar informações de contato dos usuários. Os dados inseridos no formulário são enviados para um endpoint específico, que neste caso é http://localhost:3000/contacts.
 
-First, run the development server:
+![Print](public/print-1.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Print](public/print-2.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Rodar o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para executar o front-end do projeto, siga os seguintes passos:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Navegue até o diretório raiz do projeto.
+2. Instale as dependências do projeto executando o seguinte comando:
+   ```
+   npm install
+   ```
+4. Após a instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+   ```
+   npm run dev
+   ```
+5. Acesse a landing-page em seu navegador através do endereço http://localhost:3000.
 
-## Learn More
+Para executar o back-end do projeto, siga os seguintes passos:
 
-To learn more about Next.js, take a look at the following resources:
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+2. Navegue até o diretório `backend` dentro do diretório raiz do projeto.
+3. Instale as dependências do backend executando o seguinte comando:
+   ```
+   npm install
+   ```
+4. Após a instalação das dependências, execute o seguinte comando para iniciar o servidor:
+   ```
+   npm run start-backend
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Funciona o Envio de Dados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Quando um usuário preenche o formulário na landing-page e o submete, os dados são enviados para o endpoint http://localhost:3000/contacts no formato JSON. Certifique-se de que o backend esteja em execução para receber os dados corretamente.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
