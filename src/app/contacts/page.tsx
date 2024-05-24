@@ -1,4 +1,3 @@
-// src/pages/contacts.tsx
 "use client";
 import React from 'react';
 import ContactsList from '../../components/contact/contact-list';
