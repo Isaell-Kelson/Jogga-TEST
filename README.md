@@ -24,8 +24,7 @@ Para executar o front-end do projeto, siga os seguintes passos:
 Para executar o back-end do projeto, siga os seguintes passos:
 
 1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
-2. Navegue até o diretório `backend` dentro do diretório raiz do projeto.
-3. Instale as dependências do backend executando o seguinte comando:
+2. Instale as dependências do backend executando o seguinte comando:
    ```
    npm install
    ```
